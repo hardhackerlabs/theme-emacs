@@ -1,4 +1,17 @@
+;; This code is copied from the dracula/emacs, which is licensed under the MIT License.
+;; See the licenses/MIT-LICENSE file in this project for more information on the MIT License.
+;;
+;; Copyright 2015-present, All rights reserved
+;;
+;; This code is licensed under the Apache License, Version 2.0 (the "License");
+;; you may not use this file except in compliance with the License.
+;; You may obtain a copy of the License at
+;;
+;;      http://www.apache.org/licenses/LICENSE-2.0
+
+
 ;;; HardHacker Emacs Theme
+
 (deftheme hardhacker)
 
 
