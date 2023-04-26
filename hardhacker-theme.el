@@ -75,16 +75,16 @@ read it before opening a new issue about your will.")
 
 ;; Assigment form: VARIABLE COLOR [256-COLOR [TTY-COLOR]]
 (let ((colors '(;; Upstream theme color
-                (hardhacker-bg          "#282433" "unspecified-bg" "unspecified-bg") ; background
-                (hardhacker-fg          "#eee9fc" "#ffffff" "brightwhite") ; foreground
-                (hardhacker-selection   "#3f3951" "#303030" "brightblack") ; selection
-                (hardhacker-comment     "#938aad" "#5f5faf" "blue")        ; comment
-                (hardhacker-cyan        "#b3f4f3" "#87d7ff" "brightcyan")  ; cyan
-                (hardhacker-green       "#b1f2a7" "#5fff87" "green")       ; green
-                (hardhacker-blue        "#b1baf4" "#ff87d7" "magenta")     ; blue
-                (hardhacker-purple      "#e192ef" "#af87ff" "brightmagenta") ; purple
-                (hardhacker-red         "#e965a5" "#ff8787" "red")         ; red
-                (hardhacker-yellow      "#ebde76" "#ffff87" "yellow")      ; yellow
+                (hardhacker-bg          "#282433" "#262626" "unspecified-bg") ; background
+                (hardhacker-fg          "#eee9fc" "#eeeeee" "brightwhite") ; foreground
+                (hardhacker-selection   "#3f3951" "#444444" "brightblack") ; selection
+                (hardhacker-comment     "#938aad" "#767676" "grey")        ; comment
+                (hardhacker-cyan        "#b3f4f3" "#87ffff" "brightcyan")  ; cyan
+                (hardhacker-green       "#b1f2a7" "#afffaf" "green")       ; green
+                (hardhacker-blue        "#b1baf4" "#afd7ff" "magenta")     ; blue
+                (hardhacker-purple      "#e192ef" "#ffafff" "brightmagenta") ; purple
+                (hardhacker-red         "#e965a5" "#ff5faf" "red")         ; red
+                (hardhacker-yellow      "#ebde76" "#ffff5f" "yellow")      ; yellow
                 ;; Other colors
                 (bg2             "#282433" "#121212" "brightblack")
                 (bg3             "#282433" "#444444" "brightblack")
@@ -145,13 +145,13 @@ read it before opening a new issue about your will.")
                (font-lock-negation-char-face :foreground ,hardhacker-cyan)
                (font-lock-number-face :foreground ,hardhacker-yellow)
                (font-lock-operator-face :foreground ,hardhacker-fg)
-               (font-lock-preprocessor-face :foreground ,hardhacker-cyan)
+               (font-lock-preprocessor-face :foreground ,hardhacker-purple)
                (font-lock-reference-face :inherit font-lock-constant-face) ;; obsolete
                (font-lock-regexp-grouping-backslash :foreground ,hardhacker-cyan)
                (font-lock-regexp-grouping-construct :foreground ,hardhacker-purple)
                (font-lock-string-face :foreground ,hardhacker-green)
                (font-lock-type-face :foreground ,hardhacker-cyan)
-               (font-lock-variable-name-face :foreground ,hardhacker-fg)
+               (font-lock-variable-name-face :foreground ,hardhacker-purple)
                (font-lock-warning-face :inherit warning :background ,bg2)
                ;; auto-complete
                (ac-completion-face :underline t :foreground ,hardhacker-blue)

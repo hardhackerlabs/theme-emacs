@@ -19,7 +19,7 @@ cp ./theme-emacs/hardhacker-theme.el ~/.emacs.d/themes/
 
 Add the following configuration to your `init.el`, then restart emacs.
 
-```EmacsLisp
+```lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'hardhacker t)
 ```
